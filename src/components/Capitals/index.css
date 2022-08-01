@@ -1,0 +1,78 @@
+/* Write your CSS here 
+
+*/
+
+.app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: radial-gradient(
+    aqua,
+    bisque,
+    orange,
+    lightpink,
+    rosybrown,
+    lightblue,
+    lightseagreen
+  );
+}
+
+.country-capital-container {
+  background-color: aliceblue;
+  width: 80%;
+  border: 5px solid mediumseagreen;
+  margin: 40px;
+}
+
+.heading {
+  font-size: 35px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: 500;
+  text-align: center;
+}
+
+.question-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+.capital-select {
+  background-color: mediumblue;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  width: 200px;
+  height: 40px;
+  border: 1px solid olive;
+  border-radius: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  outline: none;
+}
+
+.option-styling {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  background-color: aqua;
+}
+
+.question {
+  color: maroon;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+
+.country-name {
+  color: green;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  text-align: center;
+}
